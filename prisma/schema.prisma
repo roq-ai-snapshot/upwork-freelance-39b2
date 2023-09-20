@@ -1,0 +1,86 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["clientExtensions", "postgresqlExtensions"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  extensions      = [pgcrypto]
+}
+
+model company {
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  description String?  @db.VarChar(255)
+  name        String   @db.VarChar(255)
+  created_at  DateTime @default(now()) @db.Timestamp(6)
+  updated_at  DateTime @default(now()) @db.Timestamp(6)
+  user_id     String   @db.Uuid
+  tenant_id   String   @db.VarChar(255)
+  user        user     @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model contract {
+  id             String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  start_date     DateTime? @db.Timestamp(6)
+  end_date       DateTime? @db.Timestamp(6)
+  rate           Int?
+  hours_per_week Int?
+  proposal_id    String    @db.Uuid
+  created_at     DateTime  @default(now()) @db.Timestamp(6)
+  updated_at     DateTime  @default(now()) @db.Timestamp(6)
+  proposal       proposal  @relation(fields: [proposal_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model job {
+  id             String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  title          String     @db.VarChar(255)
+  description    String     @db.VarChar(255)
+  rate           Int?
+  hours_per_week Int?
+  project_id     String     @db.Uuid
+  created_at     DateTime   @default(now()) @db.Timestamp(6)
+  updated_at     DateTime   @default(now()) @db.Timestamp(6)
+  project        project    @relation(fields: [project_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  proposal       proposal[]
+}
+
+model project {
+  id          String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  title       String    @db.VarChar(255)
+  description String    @db.VarChar(255)
+  deadline    DateTime? @db.Timestamp(6)
+  client_id   String    @db.Uuid
+  created_at  DateTime  @default(now()) @db.Timestamp(6)
+  updated_at  DateTime  @default(now()) @db.Timestamp(6)
+  job         job[]
+  user        user      @relation(fields: [client_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model proposal {
+  id             String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  cover_letter   String     @db.VarChar(255)
+  rate           Int?
+  hours_per_week Int?
+  job_id         String     @db.Uuid
+  freelancer_id  String     @db.Uuid
+  created_at     DateTime   @default(now()) @db.Timestamp(6)
+  updated_at     DateTime   @default(now()) @db.Timestamp(6)
+  contract       contract[]
+  user           user       @relation(fields: [freelancer_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  job            job        @relation(fields: [job_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model user {
+  id          String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email       String     @unique @db.VarChar(255)
+  firstName   String?    @db.VarChar(255)
+  lastName    String?    @db.VarChar(255)
+  roq_user_id String     @db.VarChar(255)
+  tenant_id   String     @db.VarChar(255)
+  created_at  DateTime   @default(now()) @db.Timestamp(6)
+  updated_at  DateTime   @default(now()) @db.Timestamp(6)
+  company     company[]
+  project     project[]
+  proposal    proposal[]
+}

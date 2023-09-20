@@ -1,0 +1,2522 @@
+[
+  {
+    "project": [
+      {
+        "id": "c49fc316-0189-49f0-9d94-916ceab9c882",
+        "title": "Project A",
+        "description": "This is project A",
+        "deadline": "2023-09-19T10:55:43.503Z",
+        "created_at": "2023-09-19T20:51:08.748Z",
+        "updated_at": "2023-09-20T02:29:00.003Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "912fa225-f7b5-4131-97f7-703e96679988",
+        "title": "Project B",
+        "description": "This is project B",
+        "deadline": "2023-09-20T01:46:42.025Z",
+        "created_at": "2023-09-20T08:05:39.389Z",
+        "updated_at": "2023-09-19T12:50:41.493Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "43364fbf-cf25-44f1-9117-e4f41cf31b0c",
+        "title": "Project C",
+        "description": "This is project C",
+        "deadline": "2023-09-20T07:17:50.422Z",
+        "created_at": "2023-09-19T17:15:08.618Z",
+        "updated_at": "2023-09-19T17:46:57.675Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "692a0fd8-7eaf-483c-a2b6-48dbfbf503d8",
+        "title": "Project D",
+        "description": "This is project D",
+        "deadline": "2023-09-19T12:53:37.847Z",
+        "created_at": "2023-09-20T04:39:45.815Z",
+        "updated_at": "2023-09-19T23:36:28.704Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "4826ab7f-b9ce-4470-a07f-6f186121cd70",
+        "title": "Project E",
+        "description": "This is project E",
+        "deadline": "2023-09-19T15:25:39.918Z",
+        "created_at": "2023-09-20T07:54:42.250Z",
+        "updated_at": "2023-09-19T22:26:41.528Z",
+        "client_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "b934b956-f09a-4b80-b6dd-ef55e907171a",
+        "title": "Job A",
+        "description": "This is job A",
+        "rate": 49533,
+        "hours_per_week": 80861,
+        "created_at": "2023-09-19T11:58:04.850Z",
+        "updated_at": "2023-09-20T04:54:37.109Z",
+        "project_id": "912fa225-f7b5-4131-97f7-703e96679988"
+      },
+      {
+        "id": "86494c59-e65b-4332-83a6-929e9b25c0a3",
+        "title": "Job B",
+        "description": "This is job B",
+        "rate": 78015,
+        "hours_per_week": 83802,
+        "created_at": "2023-09-19T18:45:33.630Z",
+        "updated_at": "2023-09-19T17:23:40.931Z",
+        "project_id": "c49fc316-0189-49f0-9d94-916ceab9c882"
+      },
+      {
+        "id": "e5090678-5489-4c6d-b6ee-8086ef2b2823",
+        "title": "Job C",
+        "description": "This is job C",
+        "rate": 49292,
+        "hours_per_week": 64765,
+        "created_at": "2023-09-19T21:55:44.308Z",
+        "updated_at": "2023-09-19T17:14:16.441Z",
+        "project_id": "c49fc316-0189-49f0-9d94-916ceab9c882"
+      },
+      {
+        "id": "dba5875d-dbcb-463c-a667-ef9e9105385d",
+        "title": "Job D",
+        "description": "This is job D",
+        "rate": 40152,
+        "hours_per_week": 81097,
+        "created_at": "2023-09-19T16:23:26.977Z",
+        "updated_at": "2023-09-20T01:57:48.421Z",
+        "project_id": "43364fbf-cf25-44f1-9117-e4f41cf31b0c"
+      },
+      {
+        "id": "65980cca-61d7-47f6-8ce9-7dfe7c397911",
+        "title": "Job E",
+        "description": "This is job E",
+        "rate": 31872,
+        "hours_per_week": 12544,
+        "created_at": "2023-09-20T02:17:12.776Z",
+        "updated_at": "2023-09-19T13:19:14.533Z",
+        "project_id": "4826ab7f-b9ce-4470-a07f-6f186121cd70"
+      }
+    ],
+    "proposal": [
+      {
+        "id": "832668c8-9d37-40e4-aad7-bccf696eeba5",
+        "cover_letter": "Cover letter for proposal A",
+        "rate": 93861,
+        "hours_per_week": 30696,
+        "created_at": "2023-09-19T13:47:00.495Z",
+        "updated_at": "2023-09-19T10:58:59.107Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "65980cca-61d7-47f6-8ce9-7dfe7c397911"
+      },
+      {
+        "id": "bec53bf4-7c51-4b6b-9cdd-89367851d2d6",
+        "cover_letter": "Cover letter for proposal B",
+        "rate": 25119,
+        "hours_per_week": 65865,
+        "created_at": "2023-09-20T01:25:56.684Z",
+        "updated_at": "2023-09-19T19:32:01.577Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "b934b956-f09a-4b80-b6dd-ef55e907171a"
+      },
+      {
+        "id": "f89d0ec1-4688-410a-9ec3-6465d9e85cee",
+        "cover_letter": "Cover letter for proposal C",
+        "rate": 68553,
+        "hours_per_week": 36181,
+        "created_at": "2023-09-20T01:14:15.824Z",
+        "updated_at": "2023-09-20T09:03:25.584Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "e5090678-5489-4c6d-b6ee-8086ef2b2823"
+      },
+      {
+        "id": "a35123f3-9aae-4e58-8585-23e29171495d",
+        "cover_letter": "Cover letter for proposal D",
+        "rate": 7588,
+        "hours_per_week": 60387,
+        "created_at": "2023-09-19T15:49:51.245Z",
+        "updated_at": "2023-09-19T23:21:09.531Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "dba5875d-dbcb-463c-a667-ef9e9105385d"
+      },
+      {
+        "id": "285636fe-4cd9-478a-80d7-ceb5c61e72bc",
+        "cover_letter": "Cover letter for proposal E",
+        "rate": 144,
+        "hours_per_week": 19931,
+        "created_at": "2023-09-20T09:32:43.811Z",
+        "updated_at": "2023-09-19T20:26:40.432Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "86494c59-e65b-4332-83a6-929e9b25c0a3"
+      }
+    ],
+    "contract": [
+      {
+        "id": "23b3b5ca-8ca2-411d-9793-5b8e87dbca71",
+        "start_date": "2023-09-19T18:39:25.427Z",
+        "end_date": "2023-09-20T03:32:16.618Z",
+        "rate": 53587,
+        "hours_per_week": 4816,
+        "created_at": "2023-09-19T16:17:25.369Z",
+        "updated_at": "2023-09-19T22:51:48.928Z",
+        "proposal_id": "832668c8-9d37-40e4-aad7-bccf696eeba5"
+      },
+      {
+        "id": "5c9028f5-31a8-4a78-8731-72e973fa2be0",
+        "start_date": "2023-09-20T08:35:19.934Z",
+        "end_date": "2023-09-19T17:29:38.788Z",
+        "rate": 66704,
+        "hours_per_week": 30352,
+        "created_at": "2023-09-20T07:10:45.752Z",
+        "updated_at": "2023-09-20T03:36:19.728Z",
+        "proposal_id": "832668c8-9d37-40e4-aad7-bccf696eeba5"
+      },
+      {
+        "id": "df86b4c5-5ecb-48e9-ae16-f8868332a1ac",
+        "start_date": "2023-09-19T20:43:30.860Z",
+        "end_date": "2023-09-20T01:36:13.760Z",
+        "rate": 14977,
+        "hours_per_week": 44761,
+        "created_at": "2023-09-20T00:29:29.214Z",
+        "updated_at": "2023-09-20T01:07:35.775Z",
+        "proposal_id": "bec53bf4-7c51-4b6b-9cdd-89367851d2d6"
+      },
+      {
+        "id": "ba7db985-9649-4344-beea-876c3ebd1f05",
+        "start_date": "2023-09-19T11:04:41.753Z",
+        "end_date": "2023-09-19T19:51:53.579Z",
+        "rate": 73810,
+        "hours_per_week": 21691,
+        "created_at": "2023-09-19T16:54:40.679Z",
+        "updated_at": "2023-09-20T05:09:11.475Z",
+        "proposal_id": "bec53bf4-7c51-4b6b-9cdd-89367851d2d6"
+      },
+      {
+        "id": "73ec2618-5a52-4c7b-b7e0-74959e134981",
+        "start_date": "2023-09-19T15:34:48.051Z",
+        "end_date": "2023-09-20T06:02:31.457Z",
+        "rate": 57006,
+        "hours_per_week": 54671,
+        "created_at": "2023-09-19T16:27:31.930Z",
+        "updated_at": "2023-09-20T05:27:12.343Z",
+        "proposal_id": "285636fe-4cd9-478a-80d7-ceb5c61e72bc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9d31a166-8014-4bf9-b2eb-dc439a1b50d9",
+        "email": "Billy76@gmail.com",
+        "firstName": "Carole",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/901.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "61f8d9cd-98cc-4ad2-afe4-2429eaa8c608",
+        "email": "Burnice_Weber@yahoo.com",
+        "firstName": "Blaise",
+        "lastName": "Fahey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1034.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d0e241c4-ce77-487a-9700-050947273c09",
+        "email": "Adaline.Becker41@hotmail.com",
+        "firstName": "Ressie",
+        "lastName": "Wunsch-Schroeder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15912252",
+        "tenantId": null
+      },
+      {
+        "reference": "562219ee-3331-4977-a43f-f186a0916310",
+        "email": "Carli_Boyer@yahoo.com",
+        "firstName": "Rod",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/932.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5f10b63e-f764-45aa-bb21-8ebf700f10f8",
+        "email": "Zoey10@hotmail.com",
+        "firstName": "Maureen",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32739284",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "f445d94d-4168-4297-a779-49c5f74edc22",
+        "title": "Web Development",
+        "description": "Create a responsive website for a small business",
+        "deadline": "2023-09-19T14:00:56.275Z",
+        "created_at": "2023-09-20T09:25:39.759Z",
+        "updated_at": "2023-09-19T22:56:01.908Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "c41edaae-38e5-4853-932c-97e438033223",
+        "title": "Mobile App Design",
+        "description": "Design a user-friendly mobile app",
+        "deadline": "2023-09-19T18:28:19.541Z",
+        "created_at": "2023-09-20T07:56:23.487Z",
+        "updated_at": "2023-09-20T07:32:16.593Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "fdb1369d-28ee-464b-ab87-4ac5d70c2a22",
+        "title": "Data Analysis",
+        "description": "Perform data analysis on customer behavior",
+        "deadline": "2023-09-19T23:16:08.667Z",
+        "created_at": "2023-09-19T19:39:46.132Z",
+        "updated_at": "2023-09-20T02:57:49.207Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "8b4f7571-0c35-4a88-8252-e9d7281398c3",
+        "title": "Graphic Design",
+        "description": "Create visually appealing graphics for marketing materials",
+        "deadline": "2023-09-19T10:50:11.907Z",
+        "created_at": "2023-09-19T17:18:34.957Z",
+        "updated_at": "2023-09-19T22:57:12.902Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "760da41c-e6ad-46b9-8910-3e711111af47",
+        "title": "Marketing Campaign",
+        "description": "Plan and execute a successful marketing campaign",
+        "deadline": "2023-09-19T19:26:40.803Z",
+        "created_at": "2023-09-19T16:01:07.440Z",
+        "updated_at": "2023-09-19T15:28:53.307Z",
+        "client_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "b4e8ec4b-7ff9-4149-8b7a-eefedc0c4a86",
+        "title": "Software Engineer",
+        "description": "Develop and maintain software applications",
+        "rate": 96115,
+        "hours_per_week": 13237,
+        "created_at": "2023-09-19T19:45:43.456Z",
+        "updated_at": "2023-09-19T21:13:51.724Z",
+        "project_id": "760da41c-e6ad-46b9-8910-3e711111af47"
+      },
+      {
+        "id": "f8b700db-dc79-40fc-8a10-52b95baf7e6d",
+        "title": "Marketing Manager",
+        "description": "Plan and execute marketing strategies",
+        "rate": 44132,
+        "hours_per_week": 18878,
+        "created_at": "2023-09-19T12:09:40.522Z",
+        "updated_at": "2023-09-20T06:16:03.487Z",
+        "project_id": "f445d94d-4168-4297-a779-49c5f74edc22"
+      },
+      {
+        "id": "745dfc73-176b-4252-9072-9918fabad4e7",
+        "title": "Data Analyst",
+        "description": "Analyze data to identify trends and insights",
+        "rate": 82711,
+        "hours_per_week": 86555,
+        "created_at": "2023-09-20T09:12:03.680Z",
+        "updated_at": "2023-09-19T20:24:51.703Z",
+        "project_id": "c41edaae-38e5-4853-932c-97e438033223"
+      },
+      {
+        "id": "1fc4d888-ecd1-41b0-b78c-edd6a3e13457",
+        "title": "Graphic Designer",
+        "description": "Create visually appealing designs for various mediums",
+        "rate": 69094,
+        "hours_per_week": 64339,
+        "created_at": "2023-09-20T04:10:35.935Z",
+        "updated_at": "2023-09-20T09:34:27.720Z",
+        "project_id": "c41edaae-38e5-4853-932c-97e438033223"
+      },
+      {
+        "id": "d7439a4d-1197-4591-a5b0-d29927461729",
+        "title": "Project Manager",
+        "description": "Coordinate and oversee project activities",
+        "rate": 87574,
+        "hours_per_week": 3881,
+        "created_at": "2023-09-19T19:30:02.453Z",
+        "updated_at": "2023-09-20T01:15:49.561Z",
+        "project_id": "8b4f7571-0c35-4a88-8252-e9d7281398c3"
+      }
+    ],
+    "proposal": [
+      {
+        "id": "49253f4e-f689-4e31-a543-cd0b9c6067a7",
+        "cover_letter": "I am excited to be considered for this opportunity and believe my skills and experience make me a strong fit. I look forward to discussing further.",
+        "rate": 26436,
+        "hours_per_week": 38310,
+        "created_at": "2023-09-19T23:23:11.665Z",
+        "updated_at": "2023-09-19T17:49:31.304Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "745dfc73-176b-4252-9072-9918fabad4e7"
+      },
+      {
+        "id": "3394b10d-2770-4338-8ae9-9af1c55c137b",
+        "cover_letter": "I am confident in my ability to contribute to this project and am eager to showcase my expertise. Thank you for considering my proposal.",
+        "rate": 81980,
+        "hours_per_week": 838,
+        "created_at": "2023-09-19T10:40:58.423Z",
+        "updated_at": "2023-09-20T05:33:26.056Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "745dfc73-176b-4252-9072-9918fabad4e7"
+      },
+      {
+        "id": "aa891ed1-523d-41ef-8d35-bcea6713bfb6",
+        "cover_letter": "I have a passion for this field and am dedicated to delivering high-quality work. I appreciate your time and consideration.",
+        "rate": 37341,
+        "hours_per_week": 81868,
+        "created_at": "2023-09-19T16:02:47.967Z",
+        "updated_at": "2023-09-19T23:34:20.735Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "745dfc73-176b-4252-9072-9918fabad4e7"
+      },
+      {
+        "id": "45e5f3f9-3ab6-4827-9d9d-5b46d10082d2",
+        "cover_letter": "I understand the requirements of this project and am confident in my ability to meet and exceed expectations. I am available to start immediately.",
+        "rate": 62431,
+        "hours_per_week": 10361,
+        "created_at": "2023-09-19T11:52:52.180Z",
+        "updated_at": "2023-09-19T19:22:20.368Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "f8b700db-dc79-40fc-8a10-52b95baf7e6d"
+      },
+      {
+        "id": "8c524408-e50e-439a-b46a-f92f99943836",
+        "cover_letter": "I have a proven track record of success in similar projects and am confident in my ability to deliver exceptional results.",
+        "rate": 97343,
+        "hours_per_week": 56906,
+        "created_at": "2023-09-19T11:14:59.876Z",
+        "updated_at": "2023-09-19T16:24:40.503Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "745dfc73-176b-4252-9072-9918fabad4e7"
+      }
+    ],
+    "contract": [
+      {
+        "id": "82080be3-8e8b-4f43-bd05-4369e2e6126c",
+        "start_date": "2023-09-19T23:12:42.040Z",
+        "end_date": "2023-09-19T20:54:19.809Z",
+        "rate": 27651,
+        "hours_per_week": 69268,
+        "created_at": "2023-09-20T02:25:01.422Z",
+        "updated_at": "2023-09-19T20:16:26.538Z",
+        "proposal_id": "8c524408-e50e-439a-b46a-f92f99943836"
+      },
+      {
+        "id": "d1a63da0-3041-4612-8fc0-378a787d023a",
+        "start_date": "2023-09-19T17:25:41.259Z",
+        "end_date": "2023-09-20T02:08:12.025Z",
+        "rate": 94944,
+        "hours_per_week": 32136,
+        "created_at": "2023-09-19T22:10:47.542Z",
+        "updated_at": "2023-09-19T22:19:58.322Z",
+        "proposal_id": "45e5f3f9-3ab6-4827-9d9d-5b46d10082d2"
+      },
+      {
+        "id": "7440ab47-deb7-47ea-84ba-9419b830141a",
+        "start_date": "2023-09-19T14:28:40.411Z",
+        "end_date": "2023-09-19T17:03:32.776Z",
+        "rate": 24205,
+        "hours_per_week": 6530,
+        "created_at": "2023-09-19T21:52:00.719Z",
+        "updated_at": "2023-09-19T12:23:17.608Z",
+        "proposal_id": "45e5f3f9-3ab6-4827-9d9d-5b46d10082d2"
+      },
+      {
+        "id": "373c2981-3054-4ded-8163-5a6d6d41c3f1",
+        "start_date": "2023-09-19T09:54:05.592Z",
+        "end_date": "2023-09-19T19:10:13.273Z",
+        "rate": 83352,
+        "hours_per_week": 50720,
+        "created_at": "2023-09-20T02:01:32.237Z",
+        "updated_at": "2023-09-19T18:52:54.668Z",
+        "proposal_id": "45e5f3f9-3ab6-4827-9d9d-5b46d10082d2"
+      },
+      {
+        "id": "60eb5fb8-012b-4f48-971e-7d7ad23db616",
+        "start_date": "2023-09-19T19:12:50.693Z",
+        "end_date": "2023-09-20T04:23:32.824Z",
+        "rate": 34501,
+        "hours_per_week": 45789,
+        "created_at": "2023-09-20T01:46:53.098Z",
+        "updated_at": "2023-09-19T16:36:23.438Z",
+        "proposal_id": "49253f4e-f689-4e31-a543-cd0b9c6067a7"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1e686393-a3b2-4c56-9a3d-136702888fa7",
+        "email": "Beatrice.Kreiger@yahoo.com",
+        "firstName": "Destin",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38829032",
+        "tenantId": null
+      },
+      {
+        "reference": "29e54b06-c658-4088-bdf7-9ccf79793d8d",
+        "email": "Markus64@gmail.com",
+        "firstName": "Jaleel",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28838087",
+        "tenantId": null
+      },
+      {
+        "reference": "2161bae3-2570-46db-a76a-6bc7b68269c1",
+        "email": "Alize92@gmail.com",
+        "firstName": "Eleazar",
+        "lastName": "Watsica",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20070561",
+        "tenantId": null
+      },
+      {
+        "reference": "031416b0-3fce-4fa9-a347-be165678f7f9",
+        "email": "Sienna.Padberg-Haag27@yahoo.com",
+        "firstName": "Willis",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21904748",
+        "tenantId": null
+      },
+      {
+        "reference": "ddbb28fc-cffe-4d50-8be4-0357db709411",
+        "email": "Marlon.Vandervort82@gmail.com",
+        "firstName": "Alda",
+        "lastName": "Parisian-Hessel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1136.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "4e5227ed-751d-4370-b607-06ea9084e4b3",
+        "title": "Project A",
+        "description": "This is project A",
+        "deadline": "2023-09-20T07:47:43.152Z",
+        "created_at": "2023-09-20T00:43:01.010Z",
+        "updated_at": "2023-09-20T09:14:00.967Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "1522ec1a-2370-460d-8af3-6b3c42de3583",
+        "title": "Project B",
+        "description": "This is project B",
+        "deadline": "2023-09-20T03:56:22.808Z",
+        "created_at": "2023-09-19T15:52:28.576Z",
+        "updated_at": "2023-09-19T11:24:02.117Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "c012b5aa-8283-4f26-bd77-01440e9db1db",
+        "title": "Project C",
+        "description": "This is project C",
+        "deadline": "2023-09-19T22:29:47.670Z",
+        "created_at": "2023-09-19T23:14:40.850Z",
+        "updated_at": "2023-09-20T05:16:29.687Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "353483c4-a613-4d33-9e0c-77783d022637",
+        "title": "Project D",
+        "description": "This is project D",
+        "deadline": "2023-09-20T08:18:03.039Z",
+        "created_at": "2023-09-19T18:19:56.683Z",
+        "updated_at": "2023-09-19T12:28:53.405Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "ca838c53-ad42-4abb-b0c7-9676e0904e69",
+        "title": "Project E",
+        "description": "This is project E",
+        "deadline": "2023-09-19T20:18:59.240Z",
+        "created_at": "2023-09-20T06:15:58.739Z",
+        "updated_at": "2023-09-20T01:51:42.866Z",
+        "client_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "814865a7-c092-4f1d-acb0-b98db9853a4c",
+        "title": "Job A",
+        "description": "This is job A",
+        "rate": 63011,
+        "hours_per_week": 48349,
+        "created_at": "2023-09-19T15:08:27.747Z",
+        "updated_at": "2023-09-19T20:52:01.657Z",
+        "project_id": "ca838c53-ad42-4abb-b0c7-9676e0904e69"
+      },
+      {
+        "id": "dd4ea2d5-1fc9-4edc-ba17-eddd01832e4e",
+        "title": "Job B",
+        "description": "This is job B",
+        "rate": 33353,
+        "hours_per_week": 36350,
+        "created_at": "2023-09-20T02:19:27.996Z",
+        "updated_at": "2023-09-20T09:16:36.040Z",
+        "project_id": "1522ec1a-2370-460d-8af3-6b3c42de3583"
+      },
+      {
+        "id": "16908aaa-f5e9-4e23-95f5-7f7b06da38ca",
+        "title": "Job C",
+        "description": "This is job C",
+        "rate": 81503,
+        "hours_per_week": 9914,
+        "created_at": "2023-09-19T23:53:21.733Z",
+        "updated_at": "2023-09-19T10:58:23.188Z",
+        "project_id": "1522ec1a-2370-460d-8af3-6b3c42de3583"
+      },
+      {
+        "id": "fc81a293-e26e-40fc-b734-c77b35266997",
+        "title": "Job D",
+        "description": "This is job D",
+        "rate": 54393,
+        "hours_per_week": 81830,
+        "created_at": "2023-09-19T22:32:02.175Z",
+        "updated_at": "2023-09-19T18:39:19.365Z",
+        "project_id": "ca838c53-ad42-4abb-b0c7-9676e0904e69"
+      },
+      {
+        "id": "d3e89118-34d6-4334-943d-27351e0c74bb",
+        "title": "Job E",
+        "description": "This is job E",
+        "rate": 6337,
+        "hours_per_week": 31035,
+        "created_at": "2023-09-20T08:09:59.339Z",
+        "updated_at": "2023-09-19T17:40:56.267Z",
+        "project_id": "ca838c53-ad42-4abb-b0c7-9676e0904e69"
+      }
+    ],
+    "proposal": [
+      {
+        "id": "0f13cde1-19ce-4bc2-be97-1b619e3ad48f",
+        "cover_letter": "Cover letter A",
+        "rate": 74590,
+        "hours_per_week": 52509,
+        "created_at": "2023-09-20T08:18:40.248Z",
+        "updated_at": "2023-09-19T19:44:53.762Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "814865a7-c092-4f1d-acb0-b98db9853a4c"
+      },
+      {
+        "id": "8bdb5ebc-6847-450c-bbbd-bac4987c9605",
+        "cover_letter": "Cover letter B",
+        "rate": 75032,
+        "hours_per_week": 26921,
+        "created_at": "2023-09-19T10:51:35.906Z",
+        "updated_at": "2023-09-19T22:47:59.565Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "fc81a293-e26e-40fc-b734-c77b35266997"
+      },
+      {
+        "id": "39141c77-fd73-4e75-9aba-cfac97fda3bc",
+        "cover_letter": "Cover letter C",
+        "rate": 92430,
+        "hours_per_week": 41600,
+        "created_at": "2023-09-19T11:04:04.936Z",
+        "updated_at": "2023-09-20T00:19:45.867Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "814865a7-c092-4f1d-acb0-b98db9853a4c"
+      },
+      {
+        "id": "c52ca392-fb35-4c4d-b029-fda42674e127",
+        "cover_letter": "Cover letter D",
+        "rate": 4728,
+        "hours_per_week": 45174,
+        "created_at": "2023-09-19T11:02:17.084Z",
+        "updated_at": "2023-09-19T22:22:08.840Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "814865a7-c092-4f1d-acb0-b98db9853a4c"
+      },
+      {
+        "id": "87a07016-40e0-4d0a-b7e6-012678bdaacf",
+        "cover_letter": "Cover letter E",
+        "rate": 58399,
+        "hours_per_week": 73625,
+        "created_at": "2023-09-19T12:06:08.142Z",
+        "updated_at": "2023-09-20T07:42:03.839Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "fc81a293-e26e-40fc-b734-c77b35266997"
+      }
+    ],
+    "contract": [
+      {
+        "id": "1a1d6dd8-3c02-42db-8fcb-c4893c377a43",
+        "start_date": "2023-09-19T10:16:57.906Z",
+        "end_date": "2023-09-20T01:26:02.186Z",
+        "rate": 42284,
+        "hours_per_week": 49443,
+        "created_at": "2023-09-19T19:44:34.412Z",
+        "updated_at": "2023-09-20T00:21:18.803Z",
+        "proposal_id": "87a07016-40e0-4d0a-b7e6-012678bdaacf"
+      },
+      {
+        "id": "58e73e30-a2d6-4da0-b707-a170833e2041",
+        "start_date": "2023-09-20T09:40:33.973Z",
+        "end_date": "2023-09-19T11:16:17.370Z",
+        "rate": 44020,
+        "hours_per_week": 43346,
+        "created_at": "2023-09-20T04:45:56.092Z",
+        "updated_at": "2023-09-20T05:18:59.384Z",
+        "proposal_id": "87a07016-40e0-4d0a-b7e6-012678bdaacf"
+      },
+      {
+        "id": "920a91ed-8682-4d35-9025-dfbeb07d9f1b",
+        "start_date": "2023-09-20T05:59:11.759Z",
+        "end_date": "2023-09-20T06:06:53.784Z",
+        "rate": 85310,
+        "hours_per_week": 35353,
+        "created_at": "2023-09-19T23:33:04.306Z",
+        "updated_at": "2023-09-20T01:36:08.782Z",
+        "proposal_id": "c52ca392-fb35-4c4d-b029-fda42674e127"
+      },
+      {
+        "id": "2ea75c1e-6dc0-429f-aa80-349fed079d0e",
+        "start_date": "2023-09-19T21:54:19.398Z",
+        "end_date": "2023-09-20T06:20:56.962Z",
+        "rate": 87933,
+        "hours_per_week": 85554,
+        "created_at": "2023-09-20T04:58:38.454Z",
+        "updated_at": "2023-09-20T08:07:54.017Z",
+        "proposal_id": "39141c77-fd73-4e75-9aba-cfac97fda3bc"
+      },
+      {
+        "id": "16427f20-3117-43b1-867d-12c6000b00b9",
+        "start_date": "2023-09-20T01:09:05.482Z",
+        "end_date": "2023-09-19T23:22:45.960Z",
+        "rate": 81906,
+        "hours_per_week": 21705,
+        "created_at": "2023-09-19T17:58:04.038Z",
+        "updated_at": "2023-09-19T12:43:26.620Z",
+        "proposal_id": "0f13cde1-19ce-4bc2-be97-1b619e3ad48f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "07eb198c-711d-48e1-8bb8-6a6b6935a6a9",
+        "email": "Odessa27@yahoo.com",
+        "firstName": "Dorothea",
+        "lastName": "Trantow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81437477",
+        "tenantId": null
+      },
+      {
+        "reference": "9fe540cc-93b5-4654-911e-407f970b1c41",
+        "email": "Percy_Kertzmann96@yahoo.com",
+        "firstName": "Kirk",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86093851",
+        "tenantId": null
+      },
+      {
+        "reference": "aef0a300-7548-491b-9cd1-df7ca9f0eacd",
+        "email": "Marlon15@hotmail.com",
+        "firstName": "Dulce",
+        "lastName": "Dicki",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/799.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a6c99dfe-06f2-445c-a339-bcea432b6cde",
+        "email": "Emmie_Hills44@yahoo.com",
+        "firstName": "Anderson",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88770800",
+        "tenantId": null
+      },
+      {
+        "reference": "80dea3d0-bbbe-471d-9987-96b929ec7549",
+        "email": "Isaac.Leffler@hotmail.com",
+        "firstName": "Elbert",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17185485",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "430c9812-e632-47a1-819a-11d4cc7e8d8a",
+        "title": "Project A",
+        "description": "This is project A",
+        "deadline": "2023-09-19T20:31:26.689Z",
+        "created_at": "2023-09-20T09:25:42.988Z",
+        "updated_at": "2023-09-19T18:24:32.030Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "9ae5ce41-a583-4938-858b-f74b8c0dc318",
+        "title": "Project B",
+        "description": "This is project B",
+        "deadline": "2023-09-20T09:31:45.907Z",
+        "created_at": "2023-09-19T10:16:16.767Z",
+        "updated_at": "2023-09-19T20:42:21.423Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "ad758b7a-680e-4166-bc0c-5f0b88601f78",
+        "title": "Project C",
+        "description": "This is project C",
+        "deadline": "2023-09-20T08:47:02.461Z",
+        "created_at": "2023-09-19T18:11:57.056Z",
+        "updated_at": "2023-09-19T21:23:02.391Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "9266d583-37e4-4d32-97a9-b37fd000f992",
+        "title": "Project D",
+        "description": "This is project D",
+        "deadline": "2023-09-19T19:48:37.392Z",
+        "created_at": "2023-09-20T00:30:17.864Z",
+        "updated_at": "2023-09-19T23:21:29.374Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "1038c8a5-bd32-44ec-ada9-d87ac2db4966",
+        "title": "Project E",
+        "description": "This is project E",
+        "deadline": "2023-09-20T03:09:45.873Z",
+        "created_at": "2023-09-19T10:12:46.694Z",
+        "updated_at": "2023-09-20T07:44:54.008Z",
+        "client_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "415684d6-b1bf-4e1c-bd9f-b1a3d8e31222",
+        "title": "Job A",
+        "description": "This is job A",
+        "rate": 29935,
+        "hours_per_week": 18722,
+        "created_at": "2023-09-20T03:24:35.724Z",
+        "updated_at": "2023-09-19T17:57:02.937Z",
+        "project_id": "9ae5ce41-a583-4938-858b-f74b8c0dc318"
+      },
+      {
+        "id": "74f49ae9-8e34-4bbc-8fa3-a7ef3d8014af",
+        "title": "Job B",
+        "description": "This is job B",
+        "rate": 45014,
+        "hours_per_week": 63137,
+        "created_at": "2023-09-19T16:14:49.406Z",
+        "updated_at": "2023-09-20T09:47:16.497Z",
+        "project_id": "9ae5ce41-a583-4938-858b-f74b8c0dc318"
+      },
+      {
+        "id": "2999d29d-8bc7-4860-af28-108e67ad8747",
+        "title": "Job C",
+        "description": "This is job C",
+        "rate": 16981,
+        "hours_per_week": 14925,
+        "created_at": "2023-09-19T14:17:06.352Z",
+        "updated_at": "2023-09-19T14:09:01.490Z",
+        "project_id": "9266d583-37e4-4d32-97a9-b37fd000f992"
+      },
+      {
+        "id": "43615b45-9e2b-4b7f-aa2a-fcc2064a3174",
+        "title": "Job D",
+        "description": "This is job D",
+        "rate": 16584,
+        "hours_per_week": 42054,
+        "created_at": "2023-09-19T23:30:11.312Z",
+        "updated_at": "2023-09-19T13:00:14.237Z",
+        "project_id": "430c9812-e632-47a1-819a-11d4cc7e8d8a"
+      },
+      {
+        "id": "ccd3231f-da41-45db-adb4-633f1e421a22",
+        "title": "Job E",
+        "description": "This is job E",
+        "rate": 99398,
+        "hours_per_week": 23465,
+        "created_at": "2023-09-20T03:35:29.598Z",
+        "updated_at": "2023-09-20T03:44:30.774Z",
+        "project_id": "9ae5ce41-a583-4938-858b-f74b8c0dc318"
+      }
+    ],
+    "proposal": [
+      {
+        "id": "c69e0cc0-187f-4628-8f89-316ee9731a92",
+        "cover_letter": "Cover letter for proposal A",
+        "rate": 74182,
+        "hours_per_week": 57103,
+        "created_at": "2023-09-19T15:06:48.970Z",
+        "updated_at": "2023-09-19T22:46:38.675Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "ccd3231f-da41-45db-adb4-633f1e421a22"
+      },
+      {
+        "id": "60350ddd-d788-4e8e-b09e-b8d4354eef0a",
+        "cover_letter": "Cover letter for proposal B",
+        "rate": 48928,
+        "hours_per_week": 95950,
+        "created_at": "2023-09-20T09:43:46.129Z",
+        "updated_at": "2023-09-19T20:11:40.748Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "43615b45-9e2b-4b7f-aa2a-fcc2064a3174"
+      },
+      {
+        "id": "6af31987-b5d1-4451-99c1-3b4b7358dce2",
+        "cover_letter": "Cover letter for proposal C",
+        "rate": 96756,
+        "hours_per_week": 57620,
+        "created_at": "2023-09-20T00:56:19.987Z",
+        "updated_at": "2023-09-20T09:28:09.677Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "2999d29d-8bc7-4860-af28-108e67ad8747"
+      },
+      {
+        "id": "8fd824e1-73e6-44db-8707-a10bc496b463",
+        "cover_letter": "Cover letter for proposal D",
+        "rate": 44800,
+        "hours_per_week": 30233,
+        "created_at": "2023-09-20T04:46:02.946Z",
+        "updated_at": "2023-09-20T06:37:52.825Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "ccd3231f-da41-45db-adb4-633f1e421a22"
+      },
+      {
+        "id": "11209851-dd20-4505-b4fa-e1c0d342e58c",
+        "cover_letter": "Cover letter for proposal E",
+        "rate": 47410,
+        "hours_per_week": 614,
+        "created_at": "2023-09-20T07:33:30.662Z",
+        "updated_at": "2023-09-20T04:39:58.547Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "74f49ae9-8e34-4bbc-8fa3-a7ef3d8014af"
+      }
+    ],
+    "contract": [
+      {
+        "id": "12f2d55d-7d9e-41ed-8197-ee968889a23e",
+        "start_date": "2023-09-19T16:05:32.414Z",
+        "end_date": "2023-09-19T16:00:02.474Z",
+        "rate": 65423,
+        "hours_per_week": 13280,
+        "created_at": "2023-09-20T03:07:00.490Z",
+        "updated_at": "2023-09-19T11:21:51.610Z",
+        "proposal_id": "11209851-dd20-4505-b4fa-e1c0d342e58c"
+      },
+      {
+        "id": "d90331a2-c302-4694-b477-9844e7c6b8bd",
+        "start_date": "2023-09-20T07:15:15.009Z",
+        "end_date": "2023-09-19T20:25:41.689Z",
+        "rate": 90168,
+        "hours_per_week": 88449,
+        "created_at": "2023-09-19T22:00:19.962Z",
+        "updated_at": "2023-09-19T20:10:35.218Z",
+        "proposal_id": "6af31987-b5d1-4451-99c1-3b4b7358dce2"
+      },
+      {
+        "id": "7dfe16ef-791d-426c-bce4-d87399db161e",
+        "start_date": "2023-09-20T09:28:28.585Z",
+        "end_date": "2023-09-20T06:19:11.029Z",
+        "rate": 33574,
+        "hours_per_week": 22242,
+        "created_at": "2023-09-19T20:46:04.419Z",
+        "updated_at": "2023-09-20T08:53:08.913Z",
+        "proposal_id": "60350ddd-d788-4e8e-b09e-b8d4354eef0a"
+      },
+      {
+        "id": "2bf4af13-c781-4707-a65b-67f28b560cfc",
+        "start_date": "2023-09-19T17:49:56.006Z",
+        "end_date": "2023-09-19T17:01:10.374Z",
+        "rate": 27610,
+        "hours_per_week": 52547,
+        "created_at": "2023-09-19T12:50:44.515Z",
+        "updated_at": "2023-09-19T12:34:40.341Z",
+        "proposal_id": "8fd824e1-73e6-44db-8707-a10bc496b463"
+      },
+      {
+        "id": "524f0ba3-b5cd-4ae2-9a44-0a9e59d8c0aa",
+        "start_date": "2023-09-20T06:32:56.780Z",
+        "end_date": "2023-09-20T04:53:45.324Z",
+        "rate": 62870,
+        "hours_per_week": 73746,
+        "created_at": "2023-09-19T15:41:35.477Z",
+        "updated_at": "2023-09-19T17:43:15.326Z",
+        "proposal_id": "11209851-dd20-4505-b4fa-e1c0d342e58c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "49b1fda8-4e31-408f-ae9d-3c179298cfa5",
+        "email": "Audra.Keebler@gmail.com",
+        "firstName": "Natasha",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1113.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "371d6bf2-8126-4304-8a22-b94a7d23a56c",
+        "email": "Merle.Dietrich@yahoo.com",
+        "firstName": "Noemy",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32482280",
+        "tenantId": null
+      },
+      {
+        "reference": "3dc84d3a-41cd-40ab-b58f-a76a2dcf17e1",
+        "email": "Hassan_Dibbert@hotmail.com",
+        "firstName": "Kole",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14970230",
+        "tenantId": null
+      },
+      {
+        "reference": "046e0057-eb8f-46ce-8daa-e5b8ef97d3d7",
+        "email": "Isai.Reichert@hotmail.com",
+        "firstName": "Abdiel",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/639.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6d0f3508-0f00-4d9c-acfc-5db95094976e",
+        "email": "Don49@yahoo.com",
+        "firstName": "Amira",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72105343",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "8057ffbe-7b14-4193-955b-c6b7cbb2d055",
+        "title": "Project A",
+        "description": "This is project A",
+        "deadline": "2023-09-19T16:19:16.108Z",
+        "created_at": "2023-09-19T12:38:05.660Z",
+        "updated_at": "2023-09-20T04:18:34.826Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "e44c74f4-0b40-430d-b8be-aac9db6cef30",
+        "title": "Project B",
+        "description": "This is project B",
+        "deadline": "2023-09-19T20:17:11.591Z",
+        "created_at": "2023-09-20T02:20:54.526Z",
+        "updated_at": "2023-09-19T15:05:45.495Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "17b339dd-f015-496b-84bc-23fb1c22feb6",
+        "title": "Project C",
+        "description": "This is project C",
+        "deadline": "2023-09-19T22:07:33.420Z",
+        "created_at": "2023-09-19T12:21:39.490Z",
+        "updated_at": "2023-09-20T08:44:03.718Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "345aef67-7ab0-4b27-8e67-f60ab0944fd1",
+        "title": "Project D",
+        "description": "This is project D",
+        "deadline": "2023-09-19T13:55:32.613Z",
+        "created_at": "2023-09-19T15:23:34.484Z",
+        "updated_at": "2023-09-19T21:12:16.437Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "a71717a8-2460-4ae9-bda3-1163e2cc34b6",
+        "title": "Project E",
+        "description": "This is project E",
+        "deadline": "2023-09-20T09:00:25.658Z",
+        "created_at": "2023-09-19T19:20:23.101Z",
+        "updated_at": "2023-09-20T00:38:04.808Z",
+        "client_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "ad31e21d-2346-47ed-a04c-a9c12e89d218",
+        "title": "Job A",
+        "description": "This is job A",
+        "rate": 92914,
+        "hours_per_week": 12763,
+        "created_at": "2023-09-19T14:41:32.747Z",
+        "updated_at": "2023-09-20T05:01:58.092Z",
+        "project_id": "8057ffbe-7b14-4193-955b-c6b7cbb2d055"
+      },
+      {
+        "id": "dabf2cd7-bdaf-44d7-ada4-3d7726db679d",
+        "title": "Job B",
+        "description": "This is job B",
+        "rate": 44453,
+        "hours_per_week": 82446,
+        "created_at": "2023-09-19T23:12:53.458Z",
+        "updated_at": "2023-09-19T15:25:01.580Z",
+        "project_id": "345aef67-7ab0-4b27-8e67-f60ab0944fd1"
+      },
+      {
+        "id": "e542d72b-36ce-4f88-b2d5-9e4509eca0c9",
+        "title": "Job C",
+        "description": "This is job C",
+        "rate": 47181,
+        "hours_per_week": 64172,
+        "created_at": "2023-09-19T21:58:42.483Z",
+        "updated_at": "2023-09-20T00:12:45.838Z",
+        "project_id": "8057ffbe-7b14-4193-955b-c6b7cbb2d055"
+      },
+      {
+        "id": "4629032f-292f-4bb0-b062-830ebaff3c21",
+        "title": "Job D",
+        "description": "This is job D",
+        "rate": 62270,
+        "hours_per_week": 61264,
+        "created_at": "2023-09-19T10:15:19.623Z",
+        "updated_at": "2023-09-20T07:33:02.678Z",
+        "project_id": "345aef67-7ab0-4b27-8e67-f60ab0944fd1"
+      },
+      {
+        "id": "44e929f1-9ed8-4c72-938e-c9b3ae6b2197",
+        "title": "Job E",
+        "description": "This is job E",
+        "rate": 52131,
+        "hours_per_week": 10101,
+        "created_at": "2023-09-20T04:24:29.410Z",
+        "updated_at": "2023-09-19T20:30:35.569Z",
+        "project_id": "a71717a8-2460-4ae9-bda3-1163e2cc34b6"
+      }
+    ],
+    "proposal": [
+      {
+        "id": "4f8f5704-6f78-4f36-ad6d-88b6be50a4cf",
+        "cover_letter": "Cover letter for proposal A",
+        "rate": 65222,
+        "hours_per_week": 51149,
+        "created_at": "2023-09-19T14:58:27.511Z",
+        "updated_at": "2023-09-20T06:59:19.833Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "ad31e21d-2346-47ed-a04c-a9c12e89d218"
+      },
+      {
+        "id": "6b8336af-6696-43bc-b251-10027ccdf99f",
+        "cover_letter": "Cover letter for proposal B",
+        "rate": 95015,
+        "hours_per_week": 84669,
+        "created_at": "2023-09-20T00:39:39.926Z",
+        "updated_at": "2023-09-19T15:32:21.415Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "ad31e21d-2346-47ed-a04c-a9c12e89d218"
+      },
+      {
+        "id": "a9a49823-af6f-4943-b314-135f3e2465a6",
+        "cover_letter": "Cover letter for proposal C",
+        "rate": 18206,
+        "hours_per_week": 98564,
+        "created_at": "2023-09-19T16:40:51.805Z",
+        "updated_at": "2023-09-19T19:50:47.289Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "4629032f-292f-4bb0-b062-830ebaff3c21"
+      },
+      {
+        "id": "a74841da-fd88-4ce3-a516-b1656c6de5a2",
+        "cover_letter": "Cover letter for proposal D",
+        "rate": 54938,
+        "hours_per_week": 6830,
+        "created_at": "2023-09-19T18:32:22.545Z",
+        "updated_at": "2023-09-19T18:46:11.407Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "4629032f-292f-4bb0-b062-830ebaff3c21"
+      },
+      {
+        "id": "598e8abd-2f2f-4f18-a083-ebad1d81f19f",
+        "cover_letter": "Cover letter for proposal E",
+        "rate": 50299,
+        "hours_per_week": 12644,
+        "created_at": "2023-09-19T15:41:08.013Z",
+        "updated_at": "2023-09-19T19:49:12.341Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "dabf2cd7-bdaf-44d7-ada4-3d7726db679d"
+      }
+    ],
+    "contract": [
+      {
+        "id": "2e568f7e-e010-4953-b1c3-dab6b21680b1",
+        "start_date": "2023-09-20T01:32:10.436Z",
+        "end_date": "2023-09-19T20:10:52.144Z",
+        "rate": 33498,
+        "hours_per_week": 31060,
+        "created_at": "2023-09-19T23:08:30.092Z",
+        "updated_at": "2023-09-19T19:51:50.796Z",
+        "proposal_id": "4f8f5704-6f78-4f36-ad6d-88b6be50a4cf"
+      },
+      {
+        "id": "473276bc-6d36-46a3-9fab-002bfdba13d2",
+        "start_date": "2023-09-20T04:58:12.660Z",
+        "end_date": "2023-09-20T01:16:51.810Z",
+        "rate": 8814,
+        "hours_per_week": 49797,
+        "created_at": "2023-09-19T11:41:23.745Z",
+        "updated_at": "2023-09-19T11:12:36.877Z",
+        "proposal_id": "6b8336af-6696-43bc-b251-10027ccdf99f"
+      },
+      {
+        "id": "5b4270a6-f116-410a-84b7-b61098a85eae",
+        "start_date": "2023-09-20T02:09:31.687Z",
+        "end_date": "2023-09-19T16:45:35.112Z",
+        "rate": 70442,
+        "hours_per_week": 30117,
+        "created_at": "2023-09-19T14:29:55.425Z",
+        "updated_at": "2023-09-20T03:17:18.077Z",
+        "proposal_id": "6b8336af-6696-43bc-b251-10027ccdf99f"
+      },
+      {
+        "id": "017c7577-6e5c-4ea2-aa92-c5fdf99f1933",
+        "start_date": "2023-09-19T18:49:25.946Z",
+        "end_date": "2023-09-20T09:10:30.400Z",
+        "rate": 2002,
+        "hours_per_week": 56923,
+        "created_at": "2023-09-19T16:32:18.253Z",
+        "updated_at": "2023-09-19T14:06:34.200Z",
+        "proposal_id": "598e8abd-2f2f-4f18-a083-ebad1d81f19f"
+      },
+      {
+        "id": "bb59139e-eae1-48ef-b93d-d24ab8997463",
+        "start_date": "2023-09-19T15:44:59.676Z",
+        "end_date": "2023-09-19T21:07:30.678Z",
+        "rate": 1660,
+        "hours_per_week": 13317,
+        "created_at": "2023-09-19T12:30:05.788Z",
+        "updated_at": "2023-09-20T00:22:32.555Z",
+        "proposal_id": "6b8336af-6696-43bc-b251-10027ccdf99f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5704f507-40db-439d-832a-351e737431ec",
+        "email": "Simeon.Bins@gmail.com",
+        "firstName": "Joyce",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71698093",
+        "tenantId": null
+      },
+      {
+        "reference": "94ea1edf-265f-43db-aa16-3c1a6a45cec8",
+        "email": "Noble.Little67@yahoo.com",
+        "firstName": "Leilani",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53762816",
+        "tenantId": null
+      },
+      {
+        "reference": "4590f046-9c1f-4b29-9884-30262d2b98df",
+        "email": "Guido47@yahoo.com",
+        "firstName": "Orval",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/134.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "69309479-f631-43c4-bf5f-21070b05761f",
+        "email": "Lacy_Kuphal@hotmail.com",
+        "firstName": "Rosamond",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18589455",
+        "tenantId": null
+      },
+      {
+        "reference": "b9a0d35c-7fff-4ae7-9f8b-a99444329090",
+        "email": "Baby.Nicolas@hotmail.com",
+        "firstName": "Zula",
+        "lastName": "Schuster",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1032.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "cd7fde48-44e1-4d8a-94aa-ad9f638d3418",
+        "title": "Web Development",
+        "description": "A website for an e-commerce store",
+        "deadline": "2023-09-19T16:47:19.399Z",
+        "created_at": "2023-09-19T13:16:57.898Z",
+        "updated_at": "2023-09-20T00:04:52.274Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "685186d0-1318-4565-9e28-c8a2929f28d4",
+        "title": "Mobile App Design",
+        "description": "An app for tracking fitness goals",
+        "deadline": "2023-09-19T12:12:34.445Z",
+        "created_at": "2023-09-20T00:06:14.780Z",
+        "updated_at": "2023-09-20T04:39:40.964Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "5d683233-f0be-47aa-b3a9-4ccaad976b14",
+        "title": "Data Analysis",
+        "description": "Analyzing sales data to improve business strategies",
+        "deadline": "2023-09-19T11:29:32.813Z",
+        "created_at": "2023-09-19T20:03:22.349Z",
+        "updated_at": "2023-09-19T12:42:46.694Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "632f9e41-e2ff-4b38-bf51-01c644274479",
+        "title": "Graphic Design",
+        "description": "Creating a logo for a new brand",
+        "deadline": "2023-09-19T12:15:18.400Z",
+        "created_at": "2023-09-20T01:06:50.954Z",
+        "updated_at": "2023-09-20T08:16:07.591Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "6d60485d-b07b-4f1e-a200-d1db32da719b",
+        "title": "Marketing Campaign",
+        "description": "Planning and executing a social media campaign",
+        "deadline": "2023-09-19T17:07:37.529Z",
+        "created_at": "2023-09-20T01:53:31.289Z",
+        "updated_at": "2023-09-19T12:53:26.087Z",
+        "client_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "95846b7b-5c81-4e60-84cd-a33a5adf5f23",
+        "title": "Software Engineer",
+        "description": "Developing software solutions for clients",
+        "rate": 71481,
+        "hours_per_week": 75916,
+        "created_at": "2023-09-19T23:19:56.142Z",
+        "updated_at": "2023-09-20T02:20:34.497Z",
+        "project_id": "6d60485d-b07b-4f1e-a200-d1db32da719b"
+      },
+      {
+        "id": "03a50d90-3cf1-45dc-8744-55934b1376b9",
+        "title": "Marketing Manager",
+        "description": "Creating and implementing marketing strategies",
+        "rate": 59456,
+        "hours_per_week": 93171,
+        "created_at": "2023-09-19T23:48:36.482Z",
+        "updated_at": "2023-09-20T08:25:47.343Z",
+        "project_id": "685186d0-1318-4565-9e28-c8a2929f28d4"
+      },
+      {
+        "id": "165d9df9-3bc5-4ad8-8bd7-8a42e50ca7d2",
+        "title": "Data Analyst",
+        "description": "Analyzing data to identify trends and insights",
+        "rate": 56282,
+        "hours_per_week": 20212,
+        "created_at": "2023-09-19T13:36:29.834Z",
+        "updated_at": "2023-09-20T04:06:51.136Z",
+        "project_id": "5d683233-f0be-47aa-b3a9-4ccaad976b14"
+      },
+      {
+        "id": "3bac094a-1521-4e03-8ced-90025aa51500",
+        "title": "Graphic Designer",
+        "description": "Designing visual elements for various projects",
+        "rate": 55969,
+        "hours_per_week": 29755,
+        "created_at": "2023-09-19T10:18:31.068Z",
+        "updated_at": "2023-09-20T05:42:39.662Z",
+        "project_id": "685186d0-1318-4565-9e28-c8a2929f28d4"
+      },
+      {
+        "id": "1f1fc5f7-7442-4719-9a61-423af86aebd7",
+        "title": "Project Manager",
+        "description": "Managing project timelines and resources",
+        "rate": 64042,
+        "hours_per_week": 50123,
+        "created_at": "2023-09-19T19:36:39.754Z",
+        "updated_at": "2023-09-20T05:12:18.357Z",
+        "project_id": "685186d0-1318-4565-9e28-c8a2929f28d4"
+      }
+    ],
+    "proposal": [
+      {
+        "id": "517694b6-1016-4718-95fd-45554b162b68",
+        "cover_letter": "I am excited to be considered for this opportunity and believe my skills and experience make me a strong candidate. I look forward to discussing further.",
+        "rate": 96077,
+        "hours_per_week": 12001,
+        "created_at": "2023-09-20T07:46:49.089Z",
+        "updated_at": "2023-09-19T13:33:42.937Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "165d9df9-3bc5-4ad8-8bd7-8a42e50ca7d2"
+      },
+      {
+        "id": "86b679d5-4af7-40d8-b7b0-a967fe3af902",
+        "cover_letter": "I am passionate about this project and am confident that my expertise will contribute to its success. I am eager to collaborate and bring my ideas to the table.",
+        "rate": 77104,
+        "hours_per_week": 80432,
+        "created_at": "2023-09-20T00:55:42.741Z",
+        "updated_at": "2023-09-20T04:47:39.316Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "1f1fc5f7-7442-4719-9a61-423af86aebd7"
+      },
+      {
+        "id": "f77e08ba-45c1-4178-b31a-970f6a2e2e24",
+        "cover_letter": "I have a deep understanding of the requirements for this project and am confident in my ability to deliver high-quality work. I am excited to be part of this team.",
+        "rate": 26665,
+        "hours_per_week": 29570,
+        "created_at": "2023-09-19T21:58:31.094Z",
+        "updated_at": "2023-09-19T21:38:02.653Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "3bac094a-1521-4e03-8ced-90025aa51500"
+      },
+      {
+        "id": "9db3f621-0adf-4237-a7f9-1fd8468a5f19",
+        "cover_letter": "I have a proven track record of delivering results and exceeding expectations. I am confident that my skills and dedication will make a positive impact on this project.",
+        "rate": 84095,
+        "hours_per_week": 73646,
+        "created_at": "2023-09-19T22:37:43.461Z",
+        "updated_at": "2023-09-19T18:33:43.521Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "3bac094a-1521-4e03-8ced-90025aa51500"
+      },
+      {
+        "id": "f9edfff1-1927-4060-a38b-0294c20a1203",
+        "cover_letter": "I am impressed by the vision for this project and am excited to contribute my skills and expertise. I am confident that together we can achieve great things.",
+        "rate": 67318,
+        "hours_per_week": 33998,
+        "created_at": "2023-09-19T10:37:33.065Z",
+        "updated_at": "2023-09-19T23:31:47.885Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "1f1fc5f7-7442-4719-9a61-423af86aebd7"
+      }
+    ],
+    "contract": [
+      {
+        "id": "24a5aa65-33dd-4796-a9e0-ce922d275e24",
+        "start_date": "2023-09-20T05:46:13.117Z",
+        "end_date": "2023-09-19T18:22:35.362Z",
+        "rate": 41204,
+        "hours_per_week": 2230,
+        "created_at": "2023-09-20T09:34:51.680Z",
+        "updated_at": "2023-09-20T04:16:26.512Z",
+        "proposal_id": "9db3f621-0adf-4237-a7f9-1fd8468a5f19"
+      },
+      {
+        "id": "2e230ca3-9fdf-44ad-a133-7df4b0f63663",
+        "start_date": "2023-09-20T02:38:04.792Z",
+        "end_date": "2023-09-19T15:16:43.604Z",
+        "rate": 98044,
+        "hours_per_week": 1415,
+        "created_at": "2023-09-19T19:01:52.896Z",
+        "updated_at": "2023-09-19T18:59:34.595Z",
+        "proposal_id": "86b679d5-4af7-40d8-b7b0-a967fe3af902"
+      },
+      {
+        "id": "60a495bb-2c8d-4bd1-8858-2f7438e2bd29",
+        "start_date": "2023-09-20T03:31:00.353Z",
+        "end_date": "2023-09-20T06:39:36.741Z",
+        "rate": 3598,
+        "hours_per_week": 3907,
+        "created_at": "2023-09-20T05:23:37.961Z",
+        "updated_at": "2023-09-19T23:21:57.192Z",
+        "proposal_id": "517694b6-1016-4718-95fd-45554b162b68"
+      },
+      {
+        "id": "8b898bd4-c7cd-4ba2-b90f-05390f367e88",
+        "start_date": "2023-09-19T19:50:28.498Z",
+        "end_date": "2023-09-19T16:31:02.025Z",
+        "rate": 57260,
+        "hours_per_week": 44556,
+        "created_at": "2023-09-19T15:11:43.316Z",
+        "updated_at": "2023-09-20T07:25:29.534Z",
+        "proposal_id": "9db3f621-0adf-4237-a7f9-1fd8468a5f19"
+      },
+      {
+        "id": "92a71af5-c5df-40ef-b147-b2ea5105015b",
+        "start_date": "2023-09-19T10:54:34.210Z",
+        "end_date": "2023-09-19T10:20:47.224Z",
+        "rate": 23285,
+        "hours_per_week": 99901,
+        "created_at": "2023-09-19T14:12:39.389Z",
+        "updated_at": "2023-09-19T18:21:39.985Z",
+        "proposal_id": "517694b6-1016-4718-95fd-45554b162b68"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8f1fc28c-b1bb-407f-bf77-550581ad0423",
+        "email": "Brionna5@yahoo.com",
+        "firstName": "Juston",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/185.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5a95f1ba-f642-4bc9-9149-13d7f5623bf0",
+        "email": "Marquise52@gmail.com",
+        "firstName": "Franz",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60522216",
+        "tenantId": null
+      },
+      {
+        "reference": "07ef68c7-8ba2-4162-8f01-b011e350d259",
+        "email": "Vada_Pfeffer28@hotmail.com",
+        "firstName": "Germaine",
+        "lastName": "McClure",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/674.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f0d97cec-d84f-46ed-8002-c92c57c48b98",
+        "email": "Carey68@gmail.com",
+        "firstName": "Eugene",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1224.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3f1a4c89-585d-4f18-955c-434407db9544",
+        "email": "Malachi54@yahoo.com",
+        "firstName": "Allison",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55006324",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "d15e47cc-3d66-4e2e-a154-739dc2aee4b9",
+        "title": "Web Development",
+        "description": "A website for a small business",
+        "deadline": "2023-09-20T05:07:04.614Z",
+        "created_at": "2023-09-20T08:49:38.035Z",
+        "updated_at": "2023-09-20T04:22:10.099Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "a734b61c-9657-435a-9ead-0f001c6eb779",
+        "title": "Mobile App Design",
+        "description": "An app for managing tasks",
+        "deadline": "2023-09-19T23:53:18.607Z",
+        "created_at": "2023-09-19T16:33:29.757Z",
+        "updated_at": "2023-09-19T18:35:39.933Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "cade72a1-75e9-48b0-90b5-96e51d168b57",
+        "title": "Data Analysis",
+        "description": "Analyzing sales data",
+        "deadline": "2023-09-19T12:29:10.811Z",
+        "created_at": "2023-09-20T06:56:23.876Z",
+        "updated_at": "2023-09-19T15:18:30.982Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "448f081d-721f-4a0d-8f9c-ada8aa1ab5cc",
+        "title": "Graphic Design",
+        "description": "Creating logos and banners",
+        "deadline": "2023-09-19T17:45:00.003Z",
+        "created_at": "2023-09-20T03:00:24.168Z",
+        "updated_at": "2023-09-20T06:27:29.759Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "92f8be9d-3db0-45ca-a047-7c1af0817e8e",
+        "title": "Marketing Campaign",
+        "description": "Planning and executing a marketing campaign",
+        "deadline": "2023-09-19T10:01:54.278Z",
+        "created_at": "2023-09-19T11:48:36.678Z",
+        "updated_at": "2023-09-19T13:27:01.379Z",
+        "client_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "0590d406-37a0-4863-8cbc-b595f6bb9655",
+        "title": "Software Engineer",
+        "description": "Developing software applications",
+        "rate": 655,
+        "hours_per_week": 65913,
+        "created_at": "2023-09-19T22:28:46.693Z",
+        "updated_at": "2023-09-19T14:46:35.248Z",
+        "project_id": "448f081d-721f-4a0d-8f9c-ada8aa1ab5cc"
+      },
+      {
+        "id": "127b94ef-1a75-4e0d-b2f4-3c15d21637c8",
+        "title": "Marketing Manager",
+        "description": "Creating and implementing marketing strategies",
+        "rate": 91990,
+        "hours_per_week": 88163,
+        "created_at": "2023-09-19T11:29:58.707Z",
+        "updated_at": "2023-09-19T20:25:07.187Z",
+        "project_id": "448f081d-721f-4a0d-8f9c-ada8aa1ab5cc"
+      },
+      {
+        "id": "6eb95891-137e-45ab-8bc4-0832283e97a1",
+        "title": "Data Analyst",
+        "description": "Analyzing data to identify trends and insights",
+        "rate": 20462,
+        "hours_per_week": 52708,
+        "created_at": "2023-09-19T15:54:00.122Z",
+        "updated_at": "2023-09-19T14:57:10.769Z",
+        "project_id": "448f081d-721f-4a0d-8f9c-ada8aa1ab5cc"
+      },
+      {
+        "id": "c8e0d8da-c583-40bd-8568-1c02dd69eadd",
+        "title": "Graphic Designer",
+        "description": "Designing visual elements for print and digital media",
+        "rate": 77059,
+        "hours_per_week": 27533,
+        "created_at": "2023-09-19T23:48:37.184Z",
+        "updated_at": "2023-09-20T00:03:22.802Z",
+        "project_id": "cade72a1-75e9-48b0-90b5-96e51d168b57"
+      },
+      {
+        "id": "3f5c9f4f-91da-4292-abfd-c4c3148d20a6",
+        "title": "Project Manager",
+        "description": "Managing projects and teams",
+        "rate": 68375,
+        "hours_per_week": 48850,
+        "created_at": "2023-09-19T15:48:04.613Z",
+        "updated_at": "2023-09-19T17:30:17.836Z",
+        "project_id": "a734b61c-9657-435a-9ead-0f001c6eb779"
+      }
+    ],
+    "proposal": [
+      {
+        "id": "4f228b6e-971e-4ece-a7a2-0a03d5c176bc",
+        "cover_letter": "I am excited to work on this project and bring my expertise to the table.",
+        "rate": 4456,
+        "hours_per_week": 84365,
+        "created_at": "2023-09-20T04:35:32.501Z",
+        "updated_at": "2023-09-20T05:16:53.041Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "6eb95891-137e-45ab-8bc4-0832283e97a1"
+      },
+      {
+        "id": "5b0ac58d-2af1-418e-96ea-2bbac8c1131b",
+        "cover_letter": "With my strong background in the industry, I believe I can contribute significantly to this project.",
+        "rate": 48411,
+        "hours_per_week": 32143,
+        "created_at": "2023-09-19T17:50:52.582Z",
+        "updated_at": "2023-09-20T01:18:30.531Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "6eb95891-137e-45ab-8bc4-0832283e97a1"
+      },
+      {
+        "id": "9d7ee09e-20c4-41ba-83bf-495df5ecb6f6",
+        "cover_letter": "I have a passion for this field and would love the opportunity to work on this project.",
+        "rate": 47680,
+        "hours_per_week": 10292,
+        "created_at": "2023-09-20T02:47:55.780Z",
+        "updated_at": "2023-09-19T16:42:13.380Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "0590d406-37a0-4863-8cbc-b595f6bb9655"
+      },
+      {
+        "id": "76eae34e-af89-4d33-8845-6caa9284dd1c",
+        "cover_letter": "I am confident in my abilities and can deliver high-quality results.",
+        "rate": 81190,
+        "hours_per_week": 55585,
+        "created_at": "2023-09-20T08:07:22.466Z",
+        "updated_at": "2023-09-19T11:28:22.865Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "c8e0d8da-c583-40bd-8568-1c02dd69eadd"
+      },
+      {
+        "id": "7911b41f-a8f3-400d-8a39-af19b67ba475",
+        "cover_letter": "I understand the requirements and am ready to start working on this project.",
+        "rate": 29256,
+        "hours_per_week": 70277,
+        "created_at": "2023-09-19T13:27:28.736Z",
+        "updated_at": "2023-09-20T04:29:53.838Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "3f5c9f4f-91da-4292-abfd-c4c3148d20a6"
+      }
+    ],
+    "contract": [
+      {
+        "id": "e4a021f7-1e5b-4a18-b3d8-cb0521364e07",
+        "start_date": "2023-09-19T18:41:12.804Z",
+        "end_date": "2023-09-19T20:52:32.610Z",
+        "rate": 51955,
+        "hours_per_week": 57488,
+        "created_at": "2023-09-19T20:23:20.759Z",
+        "updated_at": "2023-09-19T18:33:22.528Z",
+        "proposal_id": "5b0ac58d-2af1-418e-96ea-2bbac8c1131b"
+      },
+      {
+        "id": "84e16f81-9a39-49ae-88f9-91c935510a43",
+        "start_date": "2023-09-20T03:49:15.748Z",
+        "end_date": "2023-09-19T18:13:03.032Z",
+        "rate": 11538,
+        "hours_per_week": 79452,
+        "created_at": "2023-09-20T03:03:57.479Z",
+        "updated_at": "2023-09-20T06:04:11.257Z",
+        "proposal_id": "5b0ac58d-2af1-418e-96ea-2bbac8c1131b"
+      },
+      {
+        "id": "3f771c6b-4aa9-40b0-9f8a-561c8c6f6772",
+        "start_date": "2023-09-20T03:07:15.812Z",
+        "end_date": "2023-09-19T11:48:10.176Z",
+        "rate": 89630,
+        "hours_per_week": 13544,
+        "created_at": "2023-09-19T18:40:37.501Z",
+        "updated_at": "2023-09-20T05:48:08.334Z",
+        "proposal_id": "9d7ee09e-20c4-41ba-83bf-495df5ecb6f6"
+      },
+      {
+        "id": "4b5f9785-2071-4367-b00d-941fcb1fc5af",
+        "start_date": "2023-09-20T01:16:16.026Z",
+        "end_date": "2023-09-20T06:08:41.743Z",
+        "rate": 33697,
+        "hours_per_week": 66695,
+        "created_at": "2023-09-19T22:04:55.999Z",
+        "updated_at": "2023-09-19T15:36:42.536Z",
+        "proposal_id": "5b0ac58d-2af1-418e-96ea-2bbac8c1131b"
+      },
+      {
+        "id": "8ffc2264-e630-4543-97d1-92d852691c91",
+        "start_date": "2023-09-20T04:38:47.956Z",
+        "end_date": "2023-09-20T04:56:05.999Z",
+        "rate": 80480,
+        "hours_per_week": 66694,
+        "created_at": "2023-09-20T04:22:41.808Z",
+        "updated_at": "2023-09-20T04:18:31.102Z",
+        "proposal_id": "7911b41f-a8f3-400d-8a39-af19b67ba475"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d0c96c41-b540-40e1-b178-f2397d8c6e2b",
+        "email": "Tremaine82@hotmail.com",
+        "firstName": "Yasmine",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/936.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ff9ffefa-3f05-4558-bbda-abfde252c39b",
+        "email": "Gardner_Schroeder@hotmail.com",
+        "firstName": "Jamel",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/246.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bf21ce9a-a2b5-4a76-9003-abe6e79a3da9",
+        "email": "Magali_Halvorson@hotmail.com",
+        "firstName": "Carson",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39106054",
+        "tenantId": null
+      },
+      {
+        "reference": "d7d28383-af07-4da6-aa17-0471b8f867b0",
+        "email": "Hallie.Fadel18@hotmail.com",
+        "firstName": "Weston",
+        "lastName": "Purdy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/711.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a0806d2b-da0b-4b24-b25f-df58d297e8a1",
+        "email": "Bridget_Runte12@yahoo.com",
+        "firstName": "Declan",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/91.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "c39fb900-b9c6-4db5-8603-b32f931eff35",
+        "title": "Project A",
+        "description": "This is project A",
+        "deadline": "2023-09-19T12:23:02.209Z",
+        "created_at": "2023-09-19T20:24:11.909Z",
+        "updated_at": "2023-09-20T08:36:48.729Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "af0c1ef9-ea66-47b9-afab-c74e600386d1",
+        "title": "Project B",
+        "description": "This is project B",
+        "deadline": "2023-09-20T06:03:14.386Z",
+        "created_at": "2023-09-19T17:13:37.934Z",
+        "updated_at": "2023-09-20T06:17:40.545Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "fe876721-14b9-4dc6-8365-424e663ef067",
+        "title": "Project C",
+        "description": "This is project C",
+        "deadline": "2023-09-20T02:15:20.640Z",
+        "created_at": "2023-09-19T21:43:02.818Z",
+        "updated_at": "2023-09-19T12:30:55.714Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "6684a578-dba8-43de-92d7-7705437e47f9",
+        "title": "Project D",
+        "description": "This is project D",
+        "deadline": "2023-09-20T07:15:00.718Z",
+        "created_at": "2023-09-20T02:08:23.341Z",
+        "updated_at": "2023-09-19T10:39:06.492Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "3e44c2d5-26d2-4f26-b22f-a439580e33b4",
+        "title": "Project E",
+        "description": "This is project E",
+        "deadline": "2023-09-20T05:02:11.005Z",
+        "created_at": "2023-09-19T22:58:24.696Z",
+        "updated_at": "2023-09-20T03:34:55.314Z",
+        "client_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "5da7d9ae-0682-4137-96d3-0bd87bc50651",
+        "title": "Job A",
+        "description": "This is job A",
+        "rate": 83525,
+        "hours_per_week": 703,
+        "created_at": "2023-09-20T06:51:43.358Z",
+        "updated_at": "2023-09-19T21:29:06.332Z",
+        "project_id": "af0c1ef9-ea66-47b9-afab-c74e600386d1"
+      },
+      {
+        "id": "dbf6af46-9fb4-4302-b8cd-1f85330c875a",
+        "title": "Job B",
+        "description": "This is job B",
+        "rate": 5372,
+        "hours_per_week": 18647,
+        "created_at": "2023-09-20T08:20:16.889Z",
+        "updated_at": "2023-09-19T19:12:32.005Z",
+        "project_id": "3e44c2d5-26d2-4f26-b22f-a439580e33b4"
+      },
+      {
+        "id": "acc77c44-23b3-4ce8-b071-d93953e38271",
+        "title": "Job C",
+        "description": "This is job C",
+        "rate": 72075,
+        "hours_per_week": 38846,
+        "created_at": "2023-09-20T07:18:26.747Z",
+        "updated_at": "2023-09-20T03:35:00.181Z",
+        "project_id": "6684a578-dba8-43de-92d7-7705437e47f9"
+      },
+      {
+        "id": "8da95201-c097-4921-a30a-c68e1a47edc0",
+        "title": "Job D",
+        "description": "This is job D",
+        "rate": 12327,
+        "hours_per_week": 78367,
+        "created_at": "2023-09-19T13:44:26.375Z",
+        "updated_at": "2023-09-19T23:22:59.315Z",
+        "project_id": "6684a578-dba8-43de-92d7-7705437e47f9"
+      },
+      {
+        "id": "ecf1262d-1003-4147-b21e-f26137c6cf72",
+        "title": "Job E",
+        "description": "This is job E",
+        "rate": 60928,
+        "hours_per_week": 1323,
+        "created_at": "2023-09-19T20:14:49.093Z",
+        "updated_at": "2023-09-19T23:03:41.653Z",
+        "project_id": "af0c1ef9-ea66-47b9-afab-c74e600386d1"
+      }
+    ],
+    "proposal": [
+      {
+        "id": "46a6a065-3b84-41f8-bdc0-da8417c4e973",
+        "cover_letter": "Cover letter for proposal A",
+        "rate": 46483,
+        "hours_per_week": 91439,
+        "created_at": "2023-09-20T09:03:09.734Z",
+        "updated_at": "2023-09-20T00:32:58.312Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "8da95201-c097-4921-a30a-c68e1a47edc0"
+      },
+      {
+        "id": "d5be21d9-6478-4ef0-b295-71e07db8c5d9",
+        "cover_letter": "Cover letter for proposal B",
+        "rate": 15527,
+        "hours_per_week": 22386,
+        "created_at": "2023-09-20T07:17:24.935Z",
+        "updated_at": "2023-09-20T00:55:28.510Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "acc77c44-23b3-4ce8-b071-d93953e38271"
+      },
+      {
+        "id": "63074397-b017-4a76-bb88-cc2e49df8a4f",
+        "cover_letter": "Cover letter for proposal C",
+        "rate": 94218,
+        "hours_per_week": 6871,
+        "created_at": "2023-09-19T14:45:10.739Z",
+        "updated_at": "2023-09-20T03:24:01.437Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "5da7d9ae-0682-4137-96d3-0bd87bc50651"
+      },
+      {
+        "id": "aefaedb4-b469-4c72-bafd-ba6f1be8014e",
+        "cover_letter": "Cover letter for proposal D",
+        "rate": 47906,
+        "hours_per_week": 99548,
+        "created_at": "2023-09-19T12:42:53.078Z",
+        "updated_at": "2023-09-19T19:11:15.741Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "acc77c44-23b3-4ce8-b071-d93953e38271"
+      },
+      {
+        "id": "1c47bd57-2b2a-4e2b-8521-6c5787b0c0ea",
+        "cover_letter": "Cover letter for proposal E",
+        "rate": 7334,
+        "hours_per_week": 42494,
+        "created_at": "2023-09-19T22:04:13.629Z",
+        "updated_at": "2023-09-19T16:51:21.398Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "acc77c44-23b3-4ce8-b071-d93953e38271"
+      }
+    ],
+    "contract": [
+      {
+        "id": "71649615-4623-4df9-a163-3d6a7227f269",
+        "start_date": "2023-09-20T02:59:46.862Z",
+        "end_date": "2023-09-19T18:57:28.288Z",
+        "rate": 56422,
+        "hours_per_week": 96335,
+        "created_at": "2023-09-20T04:51:42.233Z",
+        "updated_at": "2023-09-19T17:41:51.807Z",
+        "proposal_id": "63074397-b017-4a76-bb88-cc2e49df8a4f"
+      },
+      {
+        "id": "64dd4770-c3ab-4502-8a60-9d8c757936dc",
+        "start_date": "2023-09-20T00:58:35.300Z",
+        "end_date": "2023-09-19T15:50:21.309Z",
+        "rate": 23143,
+        "hours_per_week": 54704,
+        "created_at": "2023-09-19T16:47:29.206Z",
+        "updated_at": "2023-09-20T08:25:22.209Z",
+        "proposal_id": "1c47bd57-2b2a-4e2b-8521-6c5787b0c0ea"
+      },
+      {
+        "id": "52566116-bc3c-4e0d-bbfa-0efb47654468",
+        "start_date": "2023-09-19T22:36:04.453Z",
+        "end_date": "2023-09-19T10:50:17.189Z",
+        "rate": 49542,
+        "hours_per_week": 57955,
+        "created_at": "2023-09-19T13:48:25.990Z",
+        "updated_at": "2023-09-20T06:54:03.073Z",
+        "proposal_id": "aefaedb4-b469-4c72-bafd-ba6f1be8014e"
+      },
+      {
+        "id": "2815ad25-da58-4c4d-a694-e7629a756b57",
+        "start_date": "2023-09-19T15:02:07.622Z",
+        "end_date": "2023-09-20T05:32:34.392Z",
+        "rate": 78640,
+        "hours_per_week": 85007,
+        "created_at": "2023-09-20T00:13:54.335Z",
+        "updated_at": "2023-09-19T15:15:29.234Z",
+        "proposal_id": "aefaedb4-b469-4c72-bafd-ba6f1be8014e"
+      },
+      {
+        "id": "2d620386-e4ca-486c-94d5-07e69174e7f4",
+        "start_date": "2023-09-19T21:31:03.177Z",
+        "end_date": "2023-09-19T19:47:18.831Z",
+        "rate": 8448,
+        "hours_per_week": 20509,
+        "created_at": "2023-09-20T00:01:04.480Z",
+        "updated_at": "2023-09-19T23:34:55.348Z",
+        "proposal_id": "d5be21d9-6478-4ef0-b295-71e07db8c5d9"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "66f2e449-f793-4985-b5e1-334876f8fa85",
+        "email": "Myah39@yahoo.com",
+        "firstName": "Maximillia",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50985796",
+        "tenantId": null
+      },
+      {
+        "reference": "3b1e4898-9225-4fee-8db1-991740cd296f",
+        "email": "Lea.Murazik@yahoo.com",
+        "firstName": "Henri",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/155.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "76d93e36-3cb6-41b7-88e5-0c594ceaecd2",
+        "email": "Juanita_Legros86@hotmail.com",
+        "firstName": "Christy",
+        "lastName": "Ruecker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68908524",
+        "tenantId": null
+      },
+      {
+        "reference": "6c1fd347-78f9-488a-bf47-0dc9b73c2ce1",
+        "email": "Leslie31@hotmail.com",
+        "firstName": "Declan",
+        "lastName": "Homenick-Keebler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69947900",
+        "tenantId": null
+      },
+      {
+        "reference": "686462b9-7184-4f58-847c-531efe2b3e64",
+        "email": "Ernie_Gerlach79@yahoo.com",
+        "firstName": "Kattie",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/326.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "c54ebbe8-fc13-4645-b26f-eed39f82434d",
+        "title": "Project A",
+        "description": "This is project A",
+        "deadline": "2023-09-19T12:11:47.324Z",
+        "created_at": "2023-09-20T00:35:37.072Z",
+        "updated_at": "2023-09-20T09:00:13.996Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "5f4c2b56-d352-4def-8608-e7ee223b0f76",
+        "title": "Project B",
+        "description": "This is project B",
+        "deadline": "2023-09-19T13:58:09.481Z",
+        "created_at": "2023-09-20T05:08:42.471Z",
+        "updated_at": "2023-09-19T17:39:53.894Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "85f28c23-3544-4028-8f9e-b349437a8d32",
+        "title": "Project C",
+        "description": "This is project C",
+        "deadline": "2023-09-19T21:47:53.435Z",
+        "created_at": "2023-09-19T12:46:39.974Z",
+        "updated_at": "2023-09-19T11:57:51.047Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "7bc56ab6-7420-494a-a461-f655e469a566",
+        "title": "Project D",
+        "description": "This is project D",
+        "deadline": "2023-09-19T12:22:25.442Z",
+        "created_at": "2023-09-19T15:04:20.850Z",
+        "updated_at": "2023-09-20T06:51:24.060Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "a24e4b35-8606-4635-baf0-1d065039f569",
+        "title": "Project E",
+        "description": "This is project E",
+        "deadline": "2023-09-19T13:38:17.860Z",
+        "created_at": "2023-09-20T04:56:44.176Z",
+        "updated_at": "2023-09-19T20:58:42.834Z",
+        "client_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "af6365c9-b21f-4cc1-bcd3-de64f9c0277f",
+        "title": "Job A",
+        "description": "This is job A",
+        "rate": 47732,
+        "hours_per_week": 33840,
+        "created_at": "2023-09-19T18:39:07.813Z",
+        "updated_at": "2023-09-19T15:57:06.088Z",
+        "project_id": "c54ebbe8-fc13-4645-b26f-eed39f82434d"
+      },
+      {
+        "id": "67bad686-e2e7-44bb-ae81-77494d63a091",
+        "title": "Job B",
+        "description": "This is job B",
+        "rate": 27988,
+        "hours_per_week": 31014,
+        "created_at": "2023-09-19T12:39:35.122Z",
+        "updated_at": "2023-09-20T08:56:25.422Z",
+        "project_id": "7bc56ab6-7420-494a-a461-f655e469a566"
+      },
+      {
+        "id": "4d83866a-adff-46e6-9efa-0237b69f4853",
+        "title": "Job C",
+        "description": "This is job C",
+        "rate": 26105,
+        "hours_per_week": 55556,
+        "created_at": "2023-09-20T05:18:21.644Z",
+        "updated_at": "2023-09-19T23:12:50.045Z",
+        "project_id": "a24e4b35-8606-4635-baf0-1d065039f569"
+      },
+      {
+        "id": "864340b6-be8a-446a-a630-fb8fd95b33d1",
+        "title": "Job D",
+        "description": "This is job D",
+        "rate": 21237,
+        "hours_per_week": 28606,
+        "created_at": "2023-09-19T17:02:53.169Z",
+        "updated_at": "2023-09-20T06:59:03.667Z",
+        "project_id": "7bc56ab6-7420-494a-a461-f655e469a566"
+      },
+      {
+        "id": "d43447ce-5f1d-4211-8d73-0ca4ae2a80d5",
+        "title": "Job E",
+        "description": "This is job E",
+        "rate": 72539,
+        "hours_per_week": 19061,
+        "created_at": "2023-09-19T10:05:33.199Z",
+        "updated_at": "2023-09-19T21:26:19.516Z",
+        "project_id": "85f28c23-3544-4028-8f9e-b349437a8d32"
+      }
+    ],
+    "proposal": [
+      {
+        "id": "067f4fdf-eaee-422c-821f-bcfc6385c9e8",
+        "cover_letter": "Cover letter for proposal A",
+        "rate": 60407,
+        "hours_per_week": 10257,
+        "created_at": "2023-09-19T23:01:37.404Z",
+        "updated_at": "2023-09-20T00:23:49.899Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "af6365c9-b21f-4cc1-bcd3-de64f9c0277f"
+      },
+      {
+        "id": "5830be18-d1e1-478e-a445-2afe70b1bf9e",
+        "cover_letter": "Cover letter for proposal B",
+        "rate": 77595,
+        "hours_per_week": 5674,
+        "created_at": "2023-09-20T00:39:04.310Z",
+        "updated_at": "2023-09-19T19:31:10.189Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "d43447ce-5f1d-4211-8d73-0ca4ae2a80d5"
+      },
+      {
+        "id": "87469867-fc83-4aa7-ac8a-a25f43f0f8b0",
+        "cover_letter": "Cover letter for proposal C",
+        "rate": 77997,
+        "hours_per_week": 65379,
+        "created_at": "2023-09-20T03:27:31.718Z",
+        "updated_at": "2023-09-19T11:21:26.554Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "af6365c9-b21f-4cc1-bcd3-de64f9c0277f"
+      },
+      {
+        "id": "bcb62d42-77c1-4a95-b764-9bbad7697afd",
+        "cover_letter": "Cover letter for proposal D",
+        "rate": 95643,
+        "hours_per_week": 29743,
+        "created_at": "2023-09-19T20:34:38.515Z",
+        "updated_at": "2023-09-20T04:57:40.985Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "4d83866a-adff-46e6-9efa-0237b69f4853"
+      },
+      {
+        "id": "6ebe4062-6a8a-4f3b-925b-8f1622c7d615",
+        "cover_letter": "Cover letter for proposal E",
+        "rate": 12314,
+        "hours_per_week": 38885,
+        "created_at": "2023-09-19T10:56:17.813Z",
+        "updated_at": "2023-09-19T15:15:28.487Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "4d83866a-adff-46e6-9efa-0237b69f4853"
+      }
+    ],
+    "contract": [
+      {
+        "id": "939b7dd9-7185-481b-b05e-b996a9538e05",
+        "start_date": "2023-09-19T21:25:29.349Z",
+        "end_date": "2023-09-20T03:51:13.488Z",
+        "rate": 78630,
+        "hours_per_week": 6144,
+        "created_at": "2023-09-20T08:02:15.531Z",
+        "updated_at": "2023-09-20T08:50:29.844Z",
+        "proposal_id": "87469867-fc83-4aa7-ac8a-a25f43f0f8b0"
+      },
+      {
+        "id": "ef2df740-ab4b-4562-8b4e-d97f443477a3",
+        "start_date": "2023-09-20T04:09:27.008Z",
+        "end_date": "2023-09-20T08:37:22.416Z",
+        "rate": 51299,
+        "hours_per_week": 73836,
+        "created_at": "2023-09-19T15:38:15.297Z",
+        "updated_at": "2023-09-19T21:26:29.231Z",
+        "proposal_id": "5830be18-d1e1-478e-a445-2afe70b1bf9e"
+      },
+      {
+        "id": "c60146dd-735c-4760-b0e4-a949bc0d4c6d",
+        "start_date": "2023-09-20T08:45:23.434Z",
+        "end_date": "2023-09-20T02:01:00.200Z",
+        "rate": 8717,
+        "hours_per_week": 48076,
+        "created_at": "2023-09-20T02:10:44.028Z",
+        "updated_at": "2023-09-19T19:37:51.003Z",
+        "proposal_id": "87469867-fc83-4aa7-ac8a-a25f43f0f8b0"
+      },
+      {
+        "id": "e63d0643-5be2-4d24-8331-e5f75908005d",
+        "start_date": "2023-09-20T00:39:15.131Z",
+        "end_date": "2023-09-20T02:39:26.177Z",
+        "rate": 12373,
+        "hours_per_week": 97396,
+        "created_at": "2023-09-19T18:35:10.285Z",
+        "updated_at": "2023-09-19T10:46:47.103Z",
+        "proposal_id": "6ebe4062-6a8a-4f3b-925b-8f1622c7d615"
+      },
+      {
+        "id": "d0a3af8e-a3c3-42f7-a9fa-018495b7c197",
+        "start_date": "2023-09-19T23:45:42.265Z",
+        "end_date": "2023-09-20T02:38:41.007Z",
+        "rate": 55597,
+        "hours_per_week": 77791,
+        "created_at": "2023-09-20T03:32:06.619Z",
+        "updated_at": "2023-09-19T20:36:55.397Z",
+        "proposal_id": "6ebe4062-6a8a-4f3b-925b-8f1622c7d615"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bc789be5-aefd-43ab-8aa5-f772ec884f7c",
+        "email": "Gussie_Cartwright@yahoo.com",
+        "firstName": "Aurelia",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/610.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "349c7f04-8dfb-4129-9ca1-8a380260eef8",
+        "email": "Mozelle98@yahoo.com",
+        "firstName": "Lavina",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/659.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "df76a161-7db7-44e7-abf8-636e02e08fe5",
+        "email": "Titus69@yahoo.com",
+        "firstName": "Berta",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58601079",
+        "tenantId": null
+      },
+      {
+        "reference": "c3b43ed7-a552-4e92-84aa-4d340d545561",
+        "email": "Lemuel_Spencer31@gmail.com",
+        "firstName": "Broderick",
+        "lastName": "Frami",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64407218",
+        "tenantId": null
+      },
+      {
+        "reference": "5421bed0-666c-40f1-9330-004a640bd2bc",
+        "email": "Pearl.Gutmann@gmail.com",
+        "firstName": "Kane",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79758461",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "f192fb6e-3a6b-4543-8736-3047c4a4660a",
+        "title": "Project A",
+        "description": "This is project A",
+        "deadline": "2023-09-19T13:39:27.111Z",
+        "created_at": "2023-09-19T12:08:13.743Z",
+        "updated_at": "2023-09-19T23:55:59.862Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "259fc66a-59bf-4a66-8dcc-b31745fa59c2",
+        "title": "Project B",
+        "description": "This is project B",
+        "deadline": "2023-09-19T11:02:18.565Z",
+        "created_at": "2023-09-20T04:45:28.935Z",
+        "updated_at": "2023-09-19T12:56:14.398Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "7d07f146-fa48-43b0-a0c7-c4dd3f2904bc",
+        "title": "Project C",
+        "description": "This is project C",
+        "deadline": "2023-09-20T06:24:49.935Z",
+        "created_at": "2023-09-20T00:45:19.018Z",
+        "updated_at": "2023-09-20T02:53:09.507Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "5e8fda6f-0e49-48e9-b2dc-316ba93fcc39",
+        "title": "Project D",
+        "description": "This is project D",
+        "deadline": "2023-09-19T15:56:26.195Z",
+        "created_at": "2023-09-19T13:14:32.668Z",
+        "updated_at": "2023-09-19T19:52:49.947Z",
+        "client_id": "user_entity_pk"
+      },
+      {
+        "id": "05623530-2cbe-4464-a826-3fa3ae2c223c",
+        "title": "Project E",
+        "description": "This is project E",
+        "deadline": "2023-09-19T22:34:40.953Z",
+        "created_at": "2023-09-19T21:25:06.255Z",
+        "updated_at": "2023-09-19T13:50:16.343Z",
+        "client_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "0020a3ff-f435-4823-bd8d-3ac6584dedde",
+        "title": "Job A",
+        "description": "This is job A",
+        "rate": 40145,
+        "hours_per_week": 38108,
+        "created_at": "2023-09-20T00:39:33.271Z",
+        "updated_at": "2023-09-19T20:15:40.914Z",
+        "project_id": "f192fb6e-3a6b-4543-8736-3047c4a4660a"
+      },
+      {
+        "id": "abf92151-a50f-4813-be50-3dcf4938bdf6",
+        "title": "Job B",
+        "description": "This is job B",
+        "rate": 34255,
+        "hours_per_week": 1188,
+        "created_at": "2023-09-20T02:32:59.147Z",
+        "updated_at": "2023-09-19T20:53:28.794Z",
+        "project_id": "259fc66a-59bf-4a66-8dcc-b31745fa59c2"
+      },
+      {
+        "id": "1199d866-f39c-474a-8721-3e72dfb03c8c",
+        "title": "Job C",
+        "description": "This is job C",
+        "rate": 66899,
+        "hours_per_week": 42225,
+        "created_at": "2023-09-20T03:02:48.921Z",
+        "updated_at": "2023-09-20T09:07:37.064Z",
+        "project_id": "5e8fda6f-0e49-48e9-b2dc-316ba93fcc39"
+      },
+      {
+        "id": "f960ac38-738a-45ea-aafb-d709052d8b64",
+        "title": "Job D",
+        "description": "This is job D",
+        "rate": 19627,
+        "hours_per_week": 3368,
+        "created_at": "2023-09-19T17:34:55.670Z",
+        "updated_at": "2023-09-20T03:08:29.404Z",
+        "project_id": "05623530-2cbe-4464-a826-3fa3ae2c223c"
+      },
+      {
+        "id": "0fdce53f-2b81-4976-aca6-8273f03dcbd6",
+        "title": "Job E",
+        "description": "This is job E",
+        "rate": 11814,
+        "hours_per_week": 96620,
+        "created_at": "2023-09-19T19:29:33.773Z",
+        "updated_at": "2023-09-19T12:39:20.109Z",
+        "project_id": "5e8fda6f-0e49-48e9-b2dc-316ba93fcc39"
+      }
+    ],
+    "proposal": [
+      {
+        "id": "9fd9bd6c-d38e-4cad-9ba7-be10c4a7c999",
+        "cover_letter": "Cover letter A",
+        "rate": 38121,
+        "hours_per_week": 77729,
+        "created_at": "2023-09-19T15:51:28.983Z",
+        "updated_at": "2023-09-19T11:41:39.296Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "f960ac38-738a-45ea-aafb-d709052d8b64"
+      },
+      {
+        "id": "dbdf1571-9d79-4b2b-9d55-3badf173176e",
+        "cover_letter": "Cover letter B",
+        "rate": 45093,
+        "hours_per_week": 58772,
+        "created_at": "2023-09-19T22:35:45.401Z",
+        "updated_at": "2023-09-19T15:36:10.172Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "0020a3ff-f435-4823-bd8d-3ac6584dedde"
+      },
+      {
+        "id": "ab1bb39e-f006-494c-97b2-bd90f51b5cac",
+        "cover_letter": "Cover letter C",
+        "rate": 80036,
+        "hours_per_week": 87927,
+        "created_at": "2023-09-20T09:40:14.920Z",
+        "updated_at": "2023-09-19T17:10:32.727Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "1199d866-f39c-474a-8721-3e72dfb03c8c"
+      },
+      {
+        "id": "a9377e3b-49f1-41ac-a1ae-674cb2bcf7a9",
+        "cover_letter": "Cover letter D",
+        "rate": 85501,
+        "hours_per_week": 29970,
+        "created_at": "2023-09-20T06:00:17.182Z",
+        "updated_at": "2023-09-19T16:16:47.642Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "0fdce53f-2b81-4976-aca6-8273f03dcbd6"
+      },
+      {
+        "id": "27abb7d5-0059-4544-81db-5963f7cf610e",
+        "cover_letter": "Cover letter E",
+        "rate": 11144,
+        "hours_per_week": 71550,
+        "created_at": "2023-09-19T12:52:59.794Z",
+        "updated_at": "2023-09-20T08:25:33.126Z",
+        "freelancer_id": "user_entity_pk",
+        "job_id": "0020a3ff-f435-4823-bd8d-3ac6584dedde"
+      }
+    ],
+    "contract": [
+      {
+        "id": "0d3dec06-8138-4246-b201-e6d9913c2841",
+        "start_date": "2023-09-19T15:11:17.090Z",
+        "end_date": "2023-09-19T20:54:41.418Z",
+        "rate": 93088,
+        "hours_per_week": 7139,
+        "created_at": "2023-09-19T10:42:49.109Z",
+        "updated_at": "2023-09-19T11:52:13.755Z",
+        "proposal_id": "a9377e3b-49f1-41ac-a1ae-674cb2bcf7a9"
+      },
+      {
+        "id": "75d61e9f-d5e5-45cd-8dc7-9203be512bd2",
+        "start_date": "2023-09-19T13:12:14.842Z",
+        "end_date": "2023-09-19T12:42:39.349Z",
+        "rate": 37735,
+        "hours_per_week": 78903,
+        "created_at": "2023-09-19T17:39:35.361Z",
+        "updated_at": "2023-09-19T13:38:01.926Z",
+        "proposal_id": "dbdf1571-9d79-4b2b-9d55-3badf173176e"
+      },
+      {
+        "id": "35fd662e-e72c-44d0-b53d-8bad979569ec",
+        "start_date": "2023-09-19T15:31:57.981Z",
+        "end_date": "2023-09-20T05:07:16.605Z",
+        "rate": 3208,
+        "hours_per_week": 33249,
+        "created_at": "2023-09-19T12:42:40.653Z",
+        "updated_at": "2023-09-19T13:03:13.019Z",
+        "proposal_id": "9fd9bd6c-d38e-4cad-9ba7-be10c4a7c999"
+      },
+      {
+        "id": "9000e84a-e46b-42c9-87ae-f88cdd648379",
+        "start_date": "2023-09-20T01:29:51.036Z",
+        "end_date": "2023-09-19T11:10:31.253Z",
+        "rate": 91664,
+        "hours_per_week": 8368,
+        "created_at": "2023-09-19T14:46:08.966Z",
+        "updated_at": "2023-09-19T19:47:20.613Z",
+        "proposal_id": "9fd9bd6c-d38e-4cad-9ba7-be10c4a7c999"
+      },
+      {
+        "id": "fc563f36-b337-463c-bf19-978841d0a864",
+        "start_date": "2023-09-20T07:03:20.686Z",
+        "end_date": "2023-09-20T09:33:17.752Z",
+        "rate": 87050,
+        "hours_per_week": 87600,
+        "created_at": "2023-09-19T10:48:59.697Z",
+        "updated_at": "2023-09-19T23:05:51.877Z",
+        "proposal_id": "27abb7d5-0059-4544-81db-5963f7cf610e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6f031272-3dca-4367-9d47-0493d168fbf5",
+        "email": "Ole.Senger@gmail.com",
+        "firstName": "Muriel",
+        "lastName": "Leuschke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/80.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a941d61b-3399-4963-8c7b-bb44c66f270b",
+        "email": "Mariana.Anderson28@gmail.com",
+        "firstName": "Arnoldo",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/983.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "683e9824-f893-4f2c-adf3-8c8c78f2ef8e",
+        "email": "Catherine40@hotmail.com",
+        "firstName": "Quinten",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1751899",
+        "tenantId": null
+      },
+      {
+        "reference": "f8337523-80a2-458d-966a-e0e4455f4e40",
+        "email": "Colin_Krajcik44@gmail.com",
+        "firstName": "Meda",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/862.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "11291a78-607b-43e7-aa0c-c2c9a365c66c",
+        "email": "Aron.Tremblay@gmail.com",
+        "firstName": "Elton",
+        "lastName": "Lebsack-Bins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/393.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
